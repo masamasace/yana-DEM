@@ -1,11 +1,8 @@
 #### ライブラリのインポート ####
-import openpyxl as px
 import pandas as pd
 from pathlib import Path
 import numpy as np
-import re
 import matplotlib.pyplot as plt
-import japanize_matplotlib
 
 #### csvファイルの読み込み ####
 result_csv_path = r"data_simple/result/result.csv"
